@@ -1,4 +1,4 @@
-## Redhat HTTP & HTTPS configurantion. (www.enta.pt)
+## Redhat HTTP & HTTPS configurantion. enta.pt
 
 First we need to install the apache package:
 ``  yum install httpd ``
