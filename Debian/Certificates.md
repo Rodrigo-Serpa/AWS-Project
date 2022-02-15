@@ -51,4 +51,5 @@ And the .key to /etc/ssl/private/
 ```
 Then copy the enta certificates to the enta domain [Enta certificates](https://github.com/Rodrigo-Serpa/AWS-Project/blob/main/RedHat/Certificates.md)and the
 [remote certificates](https://github.com/Rodrigo-Serpa/AWS-Project/blob/main/Remote/Openvpn.md).
+
 🛑 This is not the optimal way to do these steps but for the porpuse of this project ( we have access to both domains ) only 1 domain did all the certificates.🛑
