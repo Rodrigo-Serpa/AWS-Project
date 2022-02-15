@@ -26,4 +26,4 @@ Client in marketing.inova.pt
 ```
 -A PREROUTING -i eth0 -p tcp -m tcp --dport 3390 -j DNAT --to-destination 192.168.2.15:3389
 ```
--A POSTROUTING -o eth0 -j MASQUERADE
+``-A POSTROUTING -o eth0 -j MASQUERADE``
