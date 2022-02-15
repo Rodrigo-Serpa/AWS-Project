@@ -1,6 +1,8 @@
 ## WAZUH configuration in linux (wazuh.inova.pt)(debian)
 
 
+This instalation should come after the [Raid6](https://github.com/Rodrigo-Serpa/AWS-Project/blob/main/Debian/Raid6.md) is done.
+
 First we need to update & upgrade the machine ``apt update && apt -y upgrade``
 
 Then install filebeat: ``apt-get install filebeat``
