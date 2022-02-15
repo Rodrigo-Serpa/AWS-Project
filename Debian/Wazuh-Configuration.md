@@ -8,6 +8,7 @@ After that install the preconfigured Filebeat configuration: ``curl -so /etc/fil
 
 Install the elasticsearch alerts template ``curl -so /etc/filebeat/wazuh-template.json https://raw.githubusercontent.com/wazuh/wazuh/4.2/extensions/elasticsearch/7.x/wazuh-template.json
 chmod go+r /etc/filebeat/wazuh-template.json``
+
 Install the Wazuh module for Filebeat ``curl -s https://packages.wazuh.com/4.x/filebeat/wazuh-filebeat-0.1.tar.gz | tar -xvz -C /usr/share/filebeat/module``
 Coppy the certificates to /etc/filebeat/certs:
 ```
