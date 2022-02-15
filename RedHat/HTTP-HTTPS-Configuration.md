@@ -25,4 +25,5 @@ After that edit the certificates:
 ```
 SSLCertificateFile /etc/pki/tls/certs/www.control.enta.crt
 SSLCertificateKeyFile /etc/pki/tls/private/www.control.enta.key
-``If everyting looks good, run ``  systemctl restart httpd ``
+```
+If everyting looks good, run ``  systemctl restart httpd ``
