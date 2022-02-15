@@ -1,4 +1,4 @@
-##Desktop configuration on linux (debian)
+## Desktop configuration on linux (debian) 💻
 
 sudo apt update
 
