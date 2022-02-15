@@ -1,4 +1,4 @@
-## Ubuntu DNS configurantion.
+## Ubuntu DNS configurantion. (control.inova.pt)
 
 First we need to install the DNS package:
 ```
