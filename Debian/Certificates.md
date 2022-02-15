@@ -1,4 +1,4 @@
-## Ubuntu certificates configurantion.
+## Ubuntu certificates configurantion. (control.inova.pt)
 
 First we need to install the easy-rsa package:
 ```
