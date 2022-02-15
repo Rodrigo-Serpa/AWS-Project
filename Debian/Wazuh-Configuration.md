@@ -24,6 +24,7 @@ systemctl enable filebeat
 systemctl start filebeat
 ```
 To check if everything is ok run ``filebeat test output``
+
 It should like this:
 ```
 Output
@@ -44,7 +45,9 @@ Output
    version: 7.10.2
    ```
    Now we need to isntall kibana package: ``apt-get install opendistroforelasticsearch-kibana``
+   
    Install the kibana configurantion file: ``curl -so /etc/kibana/kibana.yml https://packages.wazuh.com/resources/4.2/open-distro/kibana/7.x/kibana_all_in_one.yml``
+   
    Create the /usr/share/kibana/data directory:
    ```
 mkdir /usr/share/kibana/data
