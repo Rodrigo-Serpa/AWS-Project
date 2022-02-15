@@ -1,4 +1,4 @@
-## Redhat ipatbles configurantion. (control.inova.pt)
+## Redhat ipatbles configurantion. (control.enta.pt)
 
 Install the iptables package: ``yum install iptables-services``
 ```
