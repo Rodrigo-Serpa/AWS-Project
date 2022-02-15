@@ -37,6 +37,7 @@ Then put it in ```/etc/ssl/certs/ ```
 ./easyrsa build-client-full serverss.control.inova.pt nopass
 ./easyrsa build-server-full ftp.control.inova.pt nopass
 ./easyrsa build-server-full www.control.inova.pt nopass
+./easyrsa build-server-full mail.control.inova.pt nopass
 
 ./easyrsa build-server-full vpn.control.enta.pt nopass
 ./easyrsa build-server-full www.control.enta.pt nopass
