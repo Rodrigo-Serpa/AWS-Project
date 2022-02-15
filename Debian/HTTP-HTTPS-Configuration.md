@@ -2,7 +2,7 @@
 
 First we need to install the nginx package:
 ```apt install -y nginx ssl-cert```
-Now go to ```/etc/nginx/snipperts``` , do ```cat snakeoil.conf``` and coppy these lines:
+Now go to ```/etc/nginx/snipperts``` , do ```cat snakeoil.conf``` and copy these lines:
 ```
 ssl_certificate /etc/ssl/certs/ssl-cert-snakeoil.pem;
 ssl_certificate_key /etc/ssl/private/ssl-cert-snakeoil.key;
