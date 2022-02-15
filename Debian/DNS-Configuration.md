@@ -54,4 +54,4 @@ If everything look's good now we need to change our machine dns in ```nano /etc/
 nameservers:
     addresses: [ 192.182.0.10 ]
 ```
-Don't forget to do ``` netplan try ``` to aplly the changes.
+Don't forget to do ``` netplan try ``` to apply the changes.
