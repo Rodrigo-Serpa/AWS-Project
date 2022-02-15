@@ -1,6 +1,6 @@
 ## Openvpn in ubuntu (control.inova.pt)
 
-First we need to install the DNS package:
+First we need to install the openvpn package:
 ```
 apt install openvpn -y
 ```
