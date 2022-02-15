@@ -19,21 +19,21 @@ ssl_enable=YES
 ```
 If you want implicit ssl add 
 ```
-          pasv_enable=YES
-          pasv_min_port= PORT1
-          pasv_max_port= PORT2
+pasv_enable=YES
+pasv_min_port= PORT1
+pasv_max_port= PORT2
 
-          allow_anon_ssl=NO
-          force_local_data_ssl=YES
-          force_local_logins_ssl=YES
-          ssl_tlsv1=YES
-          ssl_sslv2=NO
-          ssl_sslv3=NO
-          require_ssl_reuse=NO
-          ssl_ciphers=HIGH
+allow_anon_ssl=NO
+force_local_data_ssl=YES
+force_local_logins_ssl=YES
+ssl_tlsv1=YES
+ssl_sslv2=NO
+ssl_sslv3=NO
+require_ssl_reuse=NO
+ssl_ciphers=HIGH
 
-          implicit_ssl=YES
-          listen_port=990
+implicit_ssl=YES
+listen_port=990
 ```
 For explicit, just remove the last 2 lines.
 
